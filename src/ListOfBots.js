@@ -7,6 +7,7 @@ const ListOfBots = ({ bots, onEnlist, onRelease }) => {
       <div className="bot-actions">
         <button onClick={() => onEnlist(onEnlist)}>Enlist</button>
         <button onClick={() => onRelease(onRelease)}>Release</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
       </div>
     </div>
   );
